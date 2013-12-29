@@ -1,0 +1,19 @@
+{
+  "name": "yu0819ki_koa_0.10.x",
+  "private": true,
+  "description": "koa js play by yu0819ki with node 0.10.x",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "GNODE_ENTRY_POINT=index.js node node_modules/gnode/fallback.js"
+  },
+  "dependencies": {
+    "gnode": "*",
+    "koa": "0.1.2",
+    "koa-common": "1.1.0"
+  },
+  "engines": {
+    "node": "0.10.*",
+    "npm": "1.3.*"
+  }
+}
